@@ -1,9 +1,8 @@
-# Rekrutacja AGH Space Systems 2026 - Elektronika
-Repozytorium zawiera rozwiązania zadań rekrutacyjnych do sekcji Elektroniki.
+# Current Measurement Module & Step Down Converter
 
 ## Autor: Piotr Radziej
 
-## 1. Zadanie 1.1: Moduł pomiaru prądu 50A / 24V
+## 1.Moduł pomiaru prądu 50A / 24V
 Zaprojektowany układ typu **High-Side** oparty na precyzyjnym wzmacniaczu pomiarowym.
 
 * **Specyfikacja:**
@@ -15,7 +14,7 @@ Zaprojektowany układ typu **High-Side** oparty na precyzyjnym wzmacniaczu pomia
     * Zastosowanie połączeń Kelvina dla maksymalnej precyzji.
     * Filtr wyjściowy RC.
 
-## 2. Zadanie 1.2: Przetwornica Step-Down 5V / 3A
+## 2.Przetwornica Step-Down 5V / 3A
 Projekt synchronicznej przetwornicy Buck opartej na układzie **AP63300**.
 
 * **Specyfikacja:**
@@ -25,16 +24,3 @@ Projekt synchronicznej przetwornicy Buck opartej na układzie **AP63300**.
 * **Cechy projektu:**
     * Minimalizacja pętli **Hot Loop** (kondensator C1 tuż przy pinach VIN/GND).
     * Zredukowany poligon węzła SW dla ograniczenia emisji EMI.
-
-## 3. Zadanie 1.3: Dobór złącza 
-Zaproponowano zastosowanie złączy typu **push-pull** wykonanych z polimerów.
-
-**Wybór:** **BINDER 720** (wersja 8-pinowa).
-* **Uzasadnienie:**
-    * Mechaniczne zabezpieczenie przed błędnym wpięciem oraz system zatrzaskowy.
-    * Niska masa dzięki zastosowaniu polimerów.
-    * Wysoka wytrzymałość (tysiące cykli łączeniowych).
----
-
-## Technologie
-**Narzędzia:** KiCad v8.
